@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Nome da Artista</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Sobre</a></li>
+                <li><a href="gallery.html">Galeria</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="gallery">
+        <div class="gallery-item" onclick="openArtwork('obra1')">
+            <img src="obra1.jpg" alt="Obra 1">
+        </div>
+        <div class="gallery-item" onclick="openArtwork('obra2')">
+            <img src="obra2.jpg" alt="Obra 2">
+        </div>
+        <div class="gallery-item" onclick="openArtwork('obra3')">
+            <img src="obra3.jpg" alt="Obra 3">
+        </div>
+        <!-- Repita o padrão acima para mais imagens -->
+    </section>
+
+    <footer>
+        <p>Conecte-se com a Artista</p>
+        <a href="https://www.instagram.com" target="_blank">Instagram</a> |
+        <a href="https://wa.me/123456789" target="_blank">WhatsApp</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
